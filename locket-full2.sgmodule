@@ -1,5 +1,5 @@
 #!name=Locket Day Du + Gold (usatalk)
-#!desc=Module gop: script cau hinh + photobooth/AI (ptb.js) va script Gold RevenueCat (rc.js). Ca hai deu tren GitHub usatalk/ncaandptb cua ban.
+#!desc=Module gop: 
 
 [Script]
 Locket Cau Hinh = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/.*$, requires-body=true, script-path=https://cdn.jsdelivr.net/gh/usatalk/ncaandptb@main/ptb.js
