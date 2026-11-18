@@ -1,7 +1,6 @@
 // ============================================================
 // Locket Remote Config Rewrite
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// cre: DINH DUY VINH 09
 // ============================================================
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
@@ -1993,8 +1992,7 @@ if (ua.includes("Locket")) {
     });
 
     // ============================================================
-    // 9. CATALOG RIENG (ghep 2026-11-18): chi 3 khung do ban cung
-    //    cap + 10 filter AI cua ban. Anh chua tren GitHub cua ban.
+    // 9. CATALOG RIENG 
     //    Khoi nay chay CUOI nen de len camera_filter_config o muc 3.
     // ============================================================
     const MY_HOST = "https://cdn.jsdelivr.net/gh/usatalk/ncaandptb@main";
